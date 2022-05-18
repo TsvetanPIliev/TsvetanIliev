@@ -24,28 +24,22 @@ public class QuadraticHomework {
             System.out.println("This equation has only one root and it is");
             System.out.println("X= " + x0);
 
-
         } else {
             if (D < 0) {
                 System.out.println("Sorry, but this equation has no real roots to solve... ");
 
             } else {
+
                 double x1;
                 double x2;
 
                 x1 = (-(b)) + (Math.sqrt(D)) / (2 * a);
-
                 x2 = (-(b)) - (Math.sqrt(D)) / (2 * a);
 
                 System.out.println("The roots of the equation are:");
                 System.out.println("x1= " +x1);
                 System.out.println("x2= " +x2);
             }
-
-
     }
     }
 }
-
-
-
