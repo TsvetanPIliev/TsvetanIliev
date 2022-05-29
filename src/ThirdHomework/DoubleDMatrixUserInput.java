@@ -13,18 +13,15 @@ public class DoubleDMatrixUserInput {
         System.out.println("Please enter the numbers of the Matrix: ");
     int [][] b = new int [rows][columns];
 
-    for(int i=0; i < b.length ; i++)
-    {
-        for(int j=0; j < b[0].length; j++)
-        {
+    for(int i=0; i < b.length ; i++) {
+        for(int j=0; j < b[0].length; j++) {
             b [i][j]= scanner.nextInt();
+        }
     }
-}
         System.out.println("Here is your new Matrix: ");
-        for(int i=0; i < b.length ; i++)
-        {
-            for(int j=0; j< b[0].length; j++)
-            {
+
+        for(int i=0; i < b.length ; i++) {
+            for(int j=0; j< b[0].length; j++) {
                 System.out.print(b[i][j]+" ");
             }
             System.out.println();
